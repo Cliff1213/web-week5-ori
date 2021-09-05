@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%- title %></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <nav class="nav flex-column bg-light justify-content-between">
+      <div class="nav-menu">
+        <h1 class="title">
+          <a href="#">ANSWER</a>
+        </h1>
+        <a href="" class="nav-link link-dark active">
+          <span class="material-icons align-bottom me-3">
+            assessment
+          </span>
+          Dashboard
+        </a>
+
+        <a href="" class="nav-link link-dark active">
+          <span class="material-icons align-bottom me-3">
+            question_answer
+          </span>
+          Question
+        </a>
+
+        <a href="" class="nav-link link-dark active">
+          <span class="material-icons align-bottom me-3">
+            assignment
+          </span>
+          Assignment
+        </a>
+
+        <a href="" class="nav-link link-dark active">
+          <span class="material-icons align-bottom me-3">
+            video_library
+          </span>
+          Course
+        </a>
+
+        <a href="" class="nav-link link-dark active">
+          <span class="material-icons align-bottom me-3">
+            people
+          </span>
+          Admin
+        </a>
+
+        <a href="" class="nav-link link-dark active">
+          <span class="material-icons align-bottom me-3">
+            settings
+          </span>
+          Settings
+        </a>
+      </div>
+
+      <div class="nav-user d-flex">
+        <div class="user-img">
+          <img class="rounded-circle" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true" alt="">
+        </div>
+        <div class="user-info">
+          <p class="user-name mb-0">Andy Chen</p>
+          <p class="user-mail text-secondary mb-0">andy@mail.com</p>
+        </div>
+      </div>
+    </nav>
+    
+    <%- contents %>
+
+    <footer class="footer">
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
